@@ -1,0 +1,7 @@
+try {
+// err 400 with experiments undefined
+
+
+          document.cookie = "CN_segments=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure";
+        
+} catch (uce) { console.log('user context error:', uce)}
